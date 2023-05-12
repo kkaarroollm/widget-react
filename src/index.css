@@ -1,0 +1,209 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: azure;
+}
+
+
+#container {
+    background: #000;
+    border: 2px solid #c9ab84;
+    border-radius: 14px;
+    bottom: 0;
+    box-sizing: initial;
+    height: 100%;
+    height: 435px;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    top: 30px;
+    color:aliceblue;
+    padding: 15px 25px 20px;
+    min-height: auto;
+
+}
+
+
+.head {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+.head img {
+    width: 60.97px;
+}
+
+.price-detail {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.price-detail #id {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    font-display: swap;
+    font-size: 12px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    gap: 4px;
+    justify-content: center;
+    line-height: 125%;
+    mix-blend-mode: normal;
+    padding: 26px 0 27px;
+    text-align: center;
+}
+
+#real-price {
+    background: #3aff71;
+    border-radius: 2px;
+    color: #000;
+    padding: 2px 3px;
+}
+
+#launch-price {
+    background: red;
+    border-radius: 2px;
+    color: #000;
+    padding: 2px 3px;
+}
+
+.progress-bar {
+    background-color: #242424;
+    border-radius: 3px;
+    height: 12px;
+    position: relative;
+    width: 100%;
+}
+
+.progress-bar-done {
+    align-items: center;
+    background: #c9ab84;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    opacity: 0;
+    transition: 1s ease .3s;
+    width: 0;
+    opacity: 1;
+}
+
+.amount {
+    padding: 20px 0;
+}
+
+.sold, .raised {
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    padding: 2px 0;
+}
+
+.sold-text, .raised-text {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 125%;
+}
+
+.sold-amount, .raised-amount {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#presale {
+    color: #c9ab84;
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.countdown-wrapper {
+    align-items: center;
+    display: flex;
+    flex: auto;
+    height: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.countdown-box {
+    border: 1px solid #c9ab84;
+    border-radius: 3px;
+    height: 60px;
+    width: 62px;
+}
+
+.countdown-box h1 {
+    color: #af9574;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 51px;
+    mix-blend-mode: normal;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+.countdown-box h4 {
+    color: #af9574;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    margin-top: -10px;
+    mix-blend-mode: normal;
+    text-align: center;
+}
+
+.countdown-colon {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    height: 100%;
+    justify-content: center;
+}
+
+
+.countdown-colon span {
+    background-color: #af9574;
+    border-radius: 1px;
+    height: 7px;
+    width: 7px;
+}
+
+#connect-wallet {
+    bottom: 1px;
+    left: 1px;
+    position: absolute;
+    width: calc(100% - 2px);
+    background: hsla(34,39%,65%,.85);
+    border-radius: 14px;
+    color: #050505;
+    cursor: pointer;
+    font-display: swap;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    height: 60px;
+    line-height: 125%;
+    padding: 13px 10px;
+    text-align: center;
+    width: 100%;
+
+}
