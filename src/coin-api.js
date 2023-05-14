@@ -34,12 +34,12 @@ function PriceDisplay({ apiUrl }) {
         </div>
       </div>
       <div>
-        <p className="info">
+        <div className="info">
           Stay tuned for IDO announcements. Launch price:
           <span id="launch-price" style={{ background: "red" }}>
             ${launchPrice}
           </span>
-        </p>
+        </div>
       </div>
     </div>
   );

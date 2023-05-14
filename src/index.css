@@ -7,6 +7,17 @@ body {
     background-color: azure;
 }
 
+@media only screen and (min-width: 314px) and (max-width: 813px) {
+  body {
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: azure;
+}
+}
+
 
 #container {
     background: #000;
@@ -24,6 +35,7 @@ body {
     padding: 15px 25px 20px;
     min-height: auto;
 
+
 }
 
 
@@ -36,6 +48,7 @@ body {
 .head img {
     width: 60.97px;
 }
+
 
 .price-detail {
     align-items: flex-start;
@@ -60,6 +73,12 @@ body {
     mix-blend-mode: normal;
     padding: 26px 0 27px;
     text-align: center;
+}
+
+.info {
+    font-size: 14px;
+    align-items: center;
+    padding: 20px 10px 10px;
 }
 
 #real-price {
@@ -120,6 +139,47 @@ body {
 .sold-amount, .raised-amount {
     font-size: 20px;
     font-weight: 600;
+}
+
+@media only screen and (min-width: 331px) and (max-width: 911px) {
+    .sold-text, .raised-text {
+    font-size: 13px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 125%;
+    }
+
+    .sold-amount, .raised-amount {
+    font-size: 13px;
+    font-weight: 600;
+    }
+
+    .info {
+    font-size: 12px;
+    text-align: center;
+    }
+
+    #container {
+    background: #000;
+    border: 2px solid #c9ab84;
+    border-radius: 14px;
+    bottom: 0;
+    box-sizing: initial;
+    height: 100%;
+    height: 435px;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    top: 30px;
+    color:aliceblue;
+    padding: 15px 14px 20px;
+    min-height: auto;
+    }
+
+    .head img {
+    width: 50px;
+    }
+
 }
 
 #presale {
